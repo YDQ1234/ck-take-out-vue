@@ -7,4 +7,5 @@ export const uploadAPI = (formData: FormData) => {
     method: 'post',
     data: formData  // 这里必须直接传 FormData
   })
+
 }
